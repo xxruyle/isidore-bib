@@ -1,0 +1,1492 @@
+[
+    {
+        "default_year": "460",
+        "name": "Valerian of Cimiez",
+        "wiki_url": "https://www.wikidata.org/wiki/Q3554325"
+    },
+    {
+        "default_year": "1274",
+        "name": "Thomas Aquinas",
+        "wiki_url": "https://en.wikipedia.org/wiki/Thomas_Aquinas"
+    },
+    {
+        "default_year": "942",
+        "name": "Agapius of Hierapolis",
+        "wiki_url": "https://en.wikipedia.org/wiki/Agapius_of_Hierapolis"
+    },
+    {
+        "default_year": "390",
+        "name": "Optatus of Milevis",
+        "wiki_url": "https://en.wikipedia.org/wiki/Optatus"
+    },
+    {
+        "default_year": "1849",
+        "name": "George Leo Haydock",
+        "wiki_url": "https://en.wikipedia.org/wiki/George_Leo_Haydock"
+    },
+    {
+        "default_year": "500",
+        "name": "Aponius",
+        "wiki_url": "https://referenceworks.brillonline.com/entries/brill-s-new-pauly/aponius-e128770"
+    },
+    {
+        "default_year": "458",
+        "name": "Theodoret of Cyrus",
+        "wiki_url": "https://en.wikipedia.org/wiki/Theodoret"
+    },
+    {
+        "default_year": "180",
+        "name": "Valentinus",
+        "wiki_url": "https://en.wikipedia.org/wiki/Valentinus_(Gnostic)"
+    },
+    {
+        "default_year": "336",
+        "name": "Arius",
+        "wiki_url": "https://en.wikipedia.org/wiki/Arius"
+    },
+    {
+        "default_year": "604",
+        "name": "Gregory the Dialogist",
+        "wiki_url": "https://en.wikipedia.org/wiki/Pope_Gregory_I"
+    },
+    {
+        "default_year": "155",
+        "name": "Polycarp of Smyrna",
+        "wiki_url": "https://en.wikipedia.org/wiki/Polycarp"
+    },
+    {
+        "default_year": "200",
+        "name": "Acts of Peter",
+        "wiki_url": "https://en.wikipedia.org/wiki/Acts_of_Peter"
+    },
+    {
+        "default_year": "614",
+        "name": "Andreas of Caesarea",
+        "wiki_url": "https://en.wikipedia.org/wiki/Andreas_of_Caesarea"
+    },
+    {
+        "default_year": "1298",
+        "name": "Peter Olivi",
+        "wiki_url": "https://en.wikipedia.org/wiki/Peter_John_Olivi"
+    },
+    {
+        "default_year": "900",
+        "name": "Arethas of Caesarea",
+        "wiki_url": "https://en.wikipedia.org/wiki/Arethas_of_Caesarea"
+    },
+    {
+        "default_year": "264",
+        "name": "Dionysius of Alexandria",
+        "wiki_url": "https://en.wikipedia.org/wiki/Pope_Dionysius_of_Alexandria"
+    },
+    {
+        "default_year": "850",
+        "name": "Ishodad of Merv",
+        "wiki_url": "https://en.wikipedia.org/wiki/Ishodad_of_Merv"
+    },
+    {
+        "default_year": "62",
+        "name": "Philippians",
+        "wiki_url": "https://en.wikipedia.org/wiki/Epistle_to_the_Philippians"
+    },
+    {
+        "default_year": "418",
+        "name": "Pelagius",
+        "wiki_url": "https://en.wikipedia.org/wiki/Pelagius"
+    },
+    {
+        "default_year": "397",
+        "name": "Ambrose of Milan",
+        "wiki_url": "https://en.wikipedia.org/wiki/Ambrose"
+    },
+    {
+        "default_year": "411",
+        "name": "Council of Carthage of 411",
+        "wiki_url": "https://en.wikipedia.org/wiki/Councils_of_Carthage#Conference_of_411"
+    },
+    {
+        "default_year": "50",
+        "name": "Philo of Alexandria",
+        "wiki_url": "https://en.wikipedia.org/wiki/Philo"
+    },
+    {
+        "default_year": "132",
+        "name": "Epistle of Barnabas",
+        "wiki_url": "https://en.wikipedia.org//wiki/Epistle_of_Barnabas"
+    },
+    {
+        "default_year": "1781",
+        "name": "Richard Challoner",
+        "wiki_url": "https://en.wikipedia.org/wiki/Richard_Challoner"
+    },
+    {
+        "default_year": "202",
+        "name": "Irenaeus",
+        "wiki_url": "https://en.wikipedia.org/wiki/Irenaeus"
+    },
+    {
+        "default_year": "500",
+        "name": "Desert Fathers",
+        "wiki_url": "https://en.wikipedia.org/wiki/Desert_Fathers"
+    },
+    {
+        "default_year": "391",
+        "name": "Macarius of Egypt",
+        "wiki_url": "https://en.wikipedia.org/wiki/Macarius_of_Egypt"
+    },
+    {
+        "default_year": "1536",
+        "name": "Erasmus of Rotterdam",
+        "wiki_url": "https://en.wikipedia.org/wiki/Erasmus"
+    },
+    {
+        "default_year": "56",
+        "name": "Romans",
+        "wiki_url": "https://en.wikipedia.org/wiki/Epistle_to_the_Romans"
+    },
+    {
+        "default_year": "450",
+        "name": "Abba Poemen",
+        "wiki_url": "https://en.wikipedia.org/wiki/Poemen"
+    },
+    {
+        "default_year": "538",
+        "name": "Severus of Antioch",
+        "wiki_url": "https://en.wikipedia.org/wiki/Severus_of_Antioch"
+    },
+    {
+        "default_year": "390",
+        "name": "Gregory of Nazianzus",
+        "wiki_url": "https://en.wikipedia.org/wiki/Gregory_of_Nazianzus"
+    },
+    {
+        "default_year": "319",
+        "name": "Theodore Stratelates",
+        "wiki_url": "https://en.wikipedia.org/wiki/Theodore_Stratelates"
+    },
+    {
+        "default_year": "1109",
+        "name": "Anselm of Canterbury",
+        "wiki_url": "https://en.wikipedia.org/wiki/Anselm_of_Canterbury"
+    },
+    {
+        "default_year": "171",
+        "name": "Dionysius of Corinth",
+        "wiki_url": "https://en.wikipedia.org/wiki/Dionysius_of_Corinth"
+    },
+    {
+        "default_year": "325",
+        "name": "Lucius Caecilius Firmianus Lactantius",
+        "wiki_url": "https://en.wikipedia.org/wiki/Lactantius"
+    },
+    {
+        "default_year": "130",
+        "name": "Papias of Hierapolis",
+        "wiki_url": "https://en.wikipedia.org/wiki/Papias_of_Hierapolis"
+    },
+    {
+        "default_year": "49",
+        "name": "James",
+        "wiki_url": "https://en.wikipedia.org/wiki/Epistle_of_James"
+    },
+    {
+        "default_year": "535",
+        "name": "Eugippius",
+        "wiki_url": "https://en.wikipedia.org/wiki/Eugippius"
+    },
+    {
+        "default_year": "500",
+        "name": "Ambrosian Hymn Writer",
+        "wiki_url": "https://en.wikipedia.org/wiki/Ambrosian_hymns"
+    },
+    {
+        "default_year": "185",
+        "name": "Theophilus of Antioch",
+        "wiki_url": "https://en.wikipedia.org/wiki/Theophilus_of_Antioch"
+    },
+    {
+        "default_year": "865",
+        "name": "Haimo of Auxerre",
+        "wiki_url": "https://en.wikipedia.org/wiki/Haimo_of_Auxerre"
+    },
+    {
+        "default_year": "223",
+        "name": "Callistus I of Rome",
+        "wiki_url": "https://en.wikipedia.org/wiki/Pope_Callixtus_I"
+    },
+    {
+        "default_year": "500",
+        "name": "Victor of Cartenna",
+        "wiki_url": "https://www.biblicalcyclopedia.com/V/victor-of-cartenna.html"
+    },
+    {
+        "default_year": "196",
+        "name": "Polycrates Of Ephesus",
+        "wiki_url": "https://en.wikipedia.org/wiki/Polycrates_of_Ephesus"
+    },
+    {
+        "default_year": "865",
+        "name": "Paschasius Radbertus",
+        "wiki_url": "https://en.wikipedia.org/wiki/Paschasius_Radbertus"
+    },
+    {
+        "default_year": "410",
+        "name": "Prudentius",
+        "wiki_url": "https://en.wikipedia.org/wiki/Prudentius"
+    },
+    {
+        "default_year": "300",
+        "name": "Liturgy of Saint Mark",
+        "wiki_url": "https://en.wikipedia.org/wiki/Liturgy_of_Saint_Cyril"
+    },
+    {
+        "default_year": "200",
+        "name": "The Liturgy Of The Blessed Apostles",
+        "wiki_url": "http://www.liturgies.net/Liturgies/Historical/LiturgyOfBlessedApostles.htm"
+    },
+    {
+        "default_year": "350",
+        "name": "Syncletica of Alexandria",
+        "wiki_url": "https://en.wikipedia.org/wiki/Syncletica_of_Alexandria"
+    },
+    {
+        "default_year": "251",
+        "name": "Alexander of Jerusalem",
+        "wiki_url": "https://en.wikipedia.org/wiki/Alexander_of_Jerusalem"
+    },
+    {
+        "default_year": "390",
+        "name": "Diodorus of Tarsus",
+        "wiki_url": "https://en.wikipedia.org/wiki/Diodorus_of_Tarsus"
+    },
+    {
+        "default_year": "845",
+        "name": "Theophanes of Nicaea",
+        "wiki_url": "https://en.wikipedia.org/wiki/Theodorus_and_Theophanes#Theophanes_the_Branded"
+    },
+    {
+        "default_year": "1295",
+        "name": "Nicholas of Gorran",
+        "wiki_url": "https://en.wikipedia.org/wiki/Nicholas_of_Gorran"
+    },
+    {
+        "default_year": "690",
+        "name": "Julian of Toledo",
+        "wiki_url": "https://en.wikipedia.org/wiki/Julian_of_Toledo"
+    },
+    {
+        "default_year": "505",
+        "name": "Julianus Pomerius",
+        "wiki_url": "https://en.wikipedia.org/wiki/Julianus_Pomerius"
+    },
+    {
+        "default_year": "328",
+        "name": "Alexander of Alexandria",
+        "wiki_url": "https://en.wikipedia.org/wiki/Pope_Alexander_I_of_Alexandria"
+    },
+    {
+        "default_year": "391",
+        "name": "Pacian of Barcelona",
+        "wiki_url": "https://en.wikipedia.org/wiki/Pacian"
+    },
+    {
+        "default_year": "545",
+        "name": "Venerable Barsanuphius and John the Prophet",
+        "wiki_url": "https://en.wikipedia.org/wiki/Barsanuphius"
+    },
+    {
+        "default_year": "100",
+        "name": "Didache",
+        "wiki_url": "https://en.wikipedia.org/wiki/Didache"
+    },
+    {
+        "default_year": "853",
+        "name": "Haymo of Halberstadt",
+        "wiki_url": "https://en.wikipedia.org/wiki/Haymo_of_Halberstadt"
+    },
+    {
+        "default_year": "270",
+        "name": "Gregory of Neocaesarea",
+        "wiki_url": "https://en.wikipedia.org/wiki/Gregory_Thaumaturgus"
+    },
+    {
+        "default_year": "532",
+        "name": "Pseudo-Dionysius the Areopagite",
+        "wiki_url": "https://en.wikipedia.org/wiki/Pseudo-Dionysius_the_Areopagite"
+    },
+    {
+        "default_year": "500",
+        "name": "Salvian the Presbyter",
+        "wiki_url": "https://en.wikipedia.org/wiki/Salvian"
+    },
+    {
+        "default_year": "380",
+        "name": "Oresiesis-Heru-sa Ast",
+        "wiki_url": "https://en.wikipedia.org/wiki/Orsisius"
+    },
+    {
+        "default_year": "130",
+        "name": "Epistle to Diognetus",
+        "wiki_url": "https://en.wikipedia.org/wiki/Epistle_to_Diognetus"
+    },
+    {
+        "default_year": "428",
+        "name": "Theodore of Mopsuestia",
+        "wiki_url": "https://en.wikipedia.org//wiki/Theodore_of_Mopsuestia"
+    },
+    {
+        "default_year": "1117",
+        "name": "Anselm of Laon",
+        "wiki_url": "https://en.wikipedia.org/wiki/Anselm_of_Laon"
+    },
+    {
+        "default_year": "62",
+        "name": "Ephesians",
+        "wiki_url": "https://en.wikipedia.org/wiki/Epistle_to_the_Ephesians"
+    },
+    {
+        "default_year": "330",
+        "name": "Arnobius of Sicca",
+        "wiki_url": "https://en.wikipedia.org/wiki/Arnobius"
+    },
+    {
+        "default_year": "311",
+        "name": "Peter of Alexandria",
+        "wiki_url": "https://en.wikipedia.org/wiki/Peter_I_of_Alexandria"
+    },
+    {
+        "default_year": "455",
+        "name": "Julian of Eclanum",
+        "wiki_url": "https://en.wikipedia.org/wiki/Julian_of_Eclanum"
+    },
+    {
+        "default_year": "217",
+        "name": "Zephyrinus",
+        "wiki_url": "https://en.wikipedia.org/wiki/Pope_Zephyrinus"
+    },
+    {
+        "default_year": "430",
+        "name": "Augustine of Hippo",
+        "wiki_url": "https://en.wikipedia.org/wiki/Augustine_of_Hippo"
+    },
+    {
+        "default_year": "220",
+        "name": "Tertullian",
+        "wiki_url": "https://en.wikipedia.org/wiki/Tertullian"
+    },
+    {
+        "default_year": "749",
+        "name": "John Damascene",
+        "wiki_url": "https://en.wikipedia.org/wiki/John_of_Damascus"
+    },
+    {
+        "default_year": "1349",
+        "name": "Nicholas of Lyra",
+        "wiki_url": "https://en.wikipedia.org/wiki/Nicholas_of_Lyra"
+    },
+    {
+        "default_year": "1564",
+        "name": "John Calvin",
+        "wiki_url": "https://en.wikipedia.org/wiki/John_Calvin"
+    },
+    {
+        "default_year": "565",
+        "name": "Dorotheos of Gaza",
+        "wiki_url": "https://en.wikipedia.org/wiki/Dorotheus_of_Gaza"
+    },
+    {
+        "default_year": "484",
+        "name": "Vigilius of Thapsus",
+        "wiki_url": "https://en.wikipedia.org/wiki/Vigilius_of_Thapsus"
+    },
+    {
+        "default_year": "230",
+        "name": "Didascalia Apostolorum",
+        "wiki_url": "https://en.wikipedia.org/wiki/Didascalia_Apostolorum"
+    },
+    {
+        "default_year": "373",
+        "name": "Athanasius of Alexandria",
+        "wiki_url": "https://en.wikipedia.org/wiki/Athanasius_of_Alexandria"
+    },
+    {
+        "default_year": "542",
+        "name": "Caesarius of Arles",
+        "wiki_url": "https://en.wikipedia.org/wiki/Caesarius_of_Arles"
+    },
+    {
+        "default_year": "1591",
+        "name": "John of the Cross",
+        "wiki_url": "https://en.wikipedia.org/wiki/John_of_the_Cross"
+    },
+    {
+        "default_year": "407",
+        "name": "John Chrysostom",
+        "wiki_url": "https://en.wikipedia.org/wiki/John_Chrysostom"
+    },
+    {
+        "default_year": "240",
+        "name": "Julius Africanus",
+        "wiki_url": "https://en.wikipedia.org/wiki/Sextus_Julius_Africanus"
+    },
+    {
+        "default_year": "217",
+        "name": "Pope Zephyrinus",
+        "wiki_url": "https://en.wikipedia.org/wiki/Pope_Zephyrinus"
+    },
+    {
+        "default_year": "300",
+        "name": "The Passing of Mary",
+        "wiki_url": "https://www.ccel.org/ccel/schaff/anf08/anf08.vii.xliv.html"
+    },
+    {
+        "default_year": "460",
+        "name": "Arnobius the Younger",
+        "wiki_url": "https://en.wikipedia.org/wiki/Arnobius_the_Younger"
+    },
+    {
+        "default_year": "444",
+        "name": "Cyril of Alexandria",
+        "wiki_url": "https://en.wikipedia.org/wiki/Cyril_of_Alexandria"
+    },
+    {
+        "default_year": "190",
+        "name": "Athenagoras of Athens",
+        "wiki_url": "https://en.wikipedia.org/wiki/Athenagoras_of_Athens"
+    },
+    {
+        "default_year": "410",
+        "name": "Gaudentius of Brescia",
+        "wiki_url": "https://en.wikipedia.org/wiki/Gaudentius_of_Brescia"
+    },
+    {
+        "default_year": "64",
+        "name": "1 Timothy",
+        "wiki_url": "https://en.wikipedia.org/wiki/First_Epistle_to_Timothy"
+    },
+    {
+        "default_year": "555",
+        "name": "Romanos the Melodist",
+        "wiki_url": "https://en.wikipedia.org/wiki/Romanos_the_Melodist"
+    },
+    {
+        "default_year": "662",
+        "name": "Maximus the Confessor",
+        "wiki_url": "https://en.wikipedia.org/wiki/Maximus_the_Confessor"
+    },
+    {
+        "default_year": "491",
+        "name": "Isaiah the Solitary",
+        "wiki_url": "https://en.wikipedia.org/wiki/Isaiah_the_Solitary"
+    },
+    {
+        "default_year": "600",
+        "name": "Paschasius of Dumium",
+        "wiki_url": "https://en.wikipedia.org/wiki/Paschasius_of_Dumium"
+    },
+    {
+        "default_year": "360",
+        "name": "Gaudentius of Rimini",
+        "wiki_url": "https://en.wikipedia.org/wiki/Gaudentius_of_Rimini"
+    },
+    {
+        "default_year": "300",
+        "name": "Theonas of Alexandria",
+        "wiki_url": "https://en.wikipedia.org/wiki/Pope_Theonas_of_Alexandria"
+    },
+    {
+        "default_year": "856",
+        "name": "Rabanus Maurus",
+        "wiki_url": "https://en.wikipedia.org/wiki/Rabanus_Maurus"
+    },
+    {
+        "default_year": "368",
+        "name": "Theodorus of Tabennese",
+        "wiki_url": "https://en.wikipedia.org/wiki/Theodorus_of_Tabennese"
+    },
+    {
+        "default_year": "406",
+        "name": "Chromatius of Aquileia",
+        "wiki_url": "https://en.wikipedia.org/wiki/Chromatius"
+    },
+    {
+        "default_year": "379",
+        "name": "Basil of Caesarea",
+        "wiki_url": "https://en.wikipedia.org/wiki/Basil_of_Caesarea"
+    },
+    {
+        "default_year": "395",
+        "name": "Gregory of Nyssa",
+        "wiki_url": "https://en.wikipedia.org/wiki/Gregory_of_Nyssa"
+    },
+    {
+        "default_year": "390",
+        "name": "Ticonius",
+        "wiki_url": "https://en.wikipedia.org/wiki/Ticonius"
+    },
+    {
+        "default_year": "600",
+        "name": "Apringius of Beja",
+        "wiki_url": "https://en.wikipedia.org/wiki/Apringius"
+    },
+    {
+        "default_year": "533",
+        "name": "Fulgentius of Ruspe",
+        "wiki_url": "https://en.wikipedia.org/wiki/Fulgentius_of_Ruspe"
+    },
+    {
+        "default_year": "500",
+        "name": "Acts of Peter and Paul",
+        "wiki_url": "https://en.wikipedia.org/wiki/Acts_of_Peter_and_Paul"
+    },
+    {
+        "default_year": "1791",
+        "name": "John Wesley",
+        "wiki_url": "https://en.wikipedia.org/wiki/John_Wesley"
+    },
+    {
+        "default_year": "665",
+        "name": "Fructuosus of Braga",
+        "wiki_url": "https://en.wikipedia.org/wiki/Fructuosus_of_Braga"
+    },
+    {
+        "default_year": "398",
+        "name": "Didymus the Blind",
+        "wiki_url": "https://en.wikipedia.org/wiki/Didymus_the_Blind"
+    },
+    {
+        "default_year": "70",
+        "name": "Jude",
+        "wiki_url": "https://en.wikipedia.org/wiki/Epistle_of_Jude"
+    },
+    {
+        "default_year": "167",
+        "name": "Abercius",
+        "wiki_url": "https://en.wikipedia.org/wiki/Inscription_of_Abercius"
+    },
+    {
+        "default_year": "892",
+        "name": "Berengaudus",
+        "wiki_url": "https://en.wikipedia.org/wiki/Berengaudus"
+    },
+    {
+        "default_year": "585",
+        "name": "Cassiodorus",
+        "wiki_url": "https://en.wikipedia.org/wiki/Cassiodorus"
+    },
+    {
+        "default_year": "1359",
+        "name": "Gregory Palamas",
+        "wiki_url": "https://en.wikipedia.org/wiki/Gregory_Palamas"
+    },
+    {
+        "default_year": "420",
+        "name": "Jerome",
+        "wiki_url": "https://en.wikipedia.org/wiki/Jerome"
+    },
+    {
+        "default_year": "1130",
+        "name": "Petrus Alphonsi",
+        "wiki_url": "https://en.wikipedia.org/wiki/Petrus_Alphonsi"
+    },
+    {
+        "default_year": "384",
+        "name": "Ambrosiaster",
+        "wiki_url": "https://en.wikipedia.org/wiki/Ambrosiaster"
+    },
+    {
+        "default_year": "412",
+        "name": "Theophilus of Alexandria",
+        "wiki_url": "https://en.wikipedia.org/wiki/Theophilus_I_of_Alexandria"
+    },
+    {
+        "default_year": "200",
+        "name": "Martyrdom Of Polycarp",
+        "wiki_url": "https://en.wikipedia.org/wiki/Martyrdom_of_Polycarp"
+    },
+    {
+        "default_year": "431",
+        "name": "Paulinus of Nola",
+        "wiki_url": "https://en.wikipedia.org/wiki/Paulinus_of_Nola"
+    },
+    {
+        "default_year": "450",
+        "name": "Isidore of Pelusium",
+        "wiki_url": "https://en.wikipedia.org/wiki/Isidore_of_Pelusium"
+    },
+    {
+        "default_year": "397",
+        "name": "Philastrius of Brescia",
+        "wiki_url": "https://en.wikipedia.org/wiki/Philastrius"
+    },
+    {
+        "default_year": "65",
+        "name": "1 Peter",
+        "wiki_url": "https://en.wikipedia.org/wiki/First_Epistle_of_Peter"
+    },
+    {
+        "default_year": "371",
+        "name": "Eusebius of Vercelli",
+        "wiki_url": "https://en.wikipedia.org/wiki/Eusebius_of_Vercelli"
+    },
+    {
+        "default_year": "348",
+        "name": "Pachomius the Great",
+        "wiki_url": "https://en.wikipedia.org/wiki/Pachomius_the_Great"
+    },
+    {
+        "default_year": "461",
+        "name": "Patrick of Ireland",
+        "wiki_url": "https://en.wikipedia.org/wiki/Saint_Patrick"
+    },
+    {
+        "default_year": "366",
+        "name": "Acacius of Caesarea",
+        "wiki_url": "https://en.wikipedia.org/wiki/Acacius_of_Caesarea"
+    },
+    {
+        "default_year": "1243",
+        "name": "Haymo of Faversham",
+        "wiki_url": "https://en.wikipedia.org/wiki/Haymo_of_Faversham"
+    },
+    {
+        "default_year": "236",
+        "name": "Pope Anterus",
+        "wiki_url": "https://en.wikipedia.org/wiki/Pope_Anterus"
+    },
+    {
+        "default_year": "62",
+        "name": "Acts",
+        "wiki_url": "https://en.wikipedia.org/wiki/Acts_of_the_Apostles"
+    },
+    {
+        "default_year": "548",
+        "name": "Benedict of Nursia",
+        "wiki_url": "https://en.wikipedia.org/wiki/Benedict_of_Nursia"
+    },
+    {
+        "default_year": "258",
+        "name": "Cyprian",
+        "wiki_url": "https://en.wikipedia.org/wiki/Cyprian"
+    },
+    {
+        "default_year": "704",
+        "name": "Adamnan",
+        "wiki_url": "https://en.wikipedia.org/wiki/Adomn%C3%A1n"
+    },
+    {
+        "default_year": "804",
+        "name": "Alcuin of York",
+        "wiki_url": "https://en.wikipedia.org/wiki/Alcuin"
+    },
+    {
+        "default_year": "55",
+        "name": "1 Corinthians",
+        "wiki_url": "https://en.wikipedia.org/wiki/First_Epistle_to_the_Corinthians"
+    },
+    {
+        "default_year": "735",
+        "name": "Bede",
+        "wiki_url": "https://en.wikipedia.org/wiki/Bede"
+    },
+    {
+        "default_year": "1022",
+        "name": "Symeon the New Theologian",
+        "wiki_url": "https://en.wikipedia.org/wiki/Symeon_the_New_Theologian"
+    },
+    {
+        "default_year": "740",
+        "name": "Andrew of Crete",
+        "wiki_url": "https://en.wikipedia.org/wiki/Andrew_of_Crete"
+    },
+    {
+        "default_year": "370",
+        "name": "Lucifer of Cagliari",
+        "wiki_url": "https://en.wikipedia.org/wiki/Lucifer_of_Cagliari"
+    },
+    {
+        "default_year": "1274",
+        "name": "Ancient Greek Expositor",
+        "wiki_url": ""
+    },
+    {
+        "default_year": "1889",
+        "name": "JB Lightfoot",
+        "wiki_url": "https://en.wikipedia.org/wiki/J._B._Lightfoot"
+    },
+    {
+        "default_year": "553",
+        "name": "Second Council of Constantinople",
+        "wiki_url": "https://en.wikipedia.org/wiki/Second_Council_of_Constantinople"
+    },
+    {
+        "default_year": "96",
+        "name": "Revelation",
+        "wiki_url": "https://en.wikipedia.org/wiki/Book_of_Revelation"
+    },
+    {
+        "default_year": "844",
+        "name": "Dhuoda of Septimania",
+        "wiki_url": "https://en.wikipedia.org/wiki/Dhuoda"
+    },
+    {
+        "default_year": "420",
+        "name": "Fastidius",
+        "wiki_url": "https://en.wikisource.org/wiki/Nicene_and_Post-Nicene_Fathers:_Series_II/Volume_III/Lives_of_Illustrious_Men/Gennadius/Fastidius_the_bishop"
+    },
+    {
+        "default_year": "500",
+        "name": "Eusebius of Gaul",
+        "wiki_url": "https://fr.wikipedia.org/wiki/Eus%C3%A8be_gallican"
+    },
+    {
+        "default_year": "379",
+        "name": "Macrina the Younger",
+        "wiki_url": "https://en.wikipedia.org/wiki/Macrina_the_Younger"
+    },
+    {
+        "default_year": "203",
+        "name": "The Passion of Saints Perpetua and Felicity",
+        "wiki_url": "https://en.wikipedia.org/wiki/The_Passion_of_Saints_Perpetua_and_Felicity"
+    },
+    {
+        "default_year": "250",
+        "name": "Marcus Minucius Felix",
+        "wiki_url": "https://en.wikipedia.org/wiki/Marcus_Minucius_Felix"
+    },
+    {
+        "default_year": "306",
+        "name": "Phileas of Thmuis",
+        "wiki_url": "https://en.wikipedia.org/wiki/Phileas_and_Philoromus"
+    },
+    {
+        "default_year": "355",
+        "name": "Ammon of Hadrianopolis",
+        "wiki_url": "https://ccdl.claremont.edu/digital/collection/cce/id/1211"
+    },
+    {
+        "default_year": "150",
+        "name": "Gospel of the Hebrews",
+        "wiki_url": "https://en.wikipedia.org/wiki/Gospel_of_the_Hebrews"
+    },
+    {
+        "default_year": "1089",
+        "name": "Lanfranc of Canterbury",
+        "wiki_url": "https://en.wikipedia.org/wiki/Lanfranc"
+    },
+    {
+        "default_year": "68",
+        "name": "2 Peter",
+        "wiki_url": "https://en.wikipedia.org/wiki/Second_Epistle_of_Peter"
+    },
+    {
+        "default_year": "521",
+        "name": "Magnus Felix Ennodius",
+        "wiki_url": "https://en.wikipedia.org/wiki/Magnus_Felix_Ennodius"
+    },
+    {
+        "default_year": "425",
+        "name": "Sulpicius Severus",
+        "wiki_url": "https://en.wikipedia.org/wiki/Sulpicius_Severus"
+    },
+    {
+        "default_year": "474",
+        "name": "Besa The Copt",
+        "wiki_url": "https://ccdl.claremont.edu/digital/collection/cce/id/345/"
+    },
+    {
+        "default_year": "396",
+        "name": "Ammonas of Egypt",
+        "wiki_url": "https://en.wikipedia.org/wiki/Ammonas_of_Egypt"
+    },
+    {
+        "default_year": "304",
+        "name": "Victorinus of Pettau",
+        "wiki_url": "https://en.wikipedia.org/wiki/Victorinus_of_Pettau"
+    },
+    {
+        "default_year": "486",
+        "name": "Diadochos of Photiki",
+        "wiki_url": "https://en.wikipedia.org/wiki/Diadochos_of_Photiki"
+    },
+    {
+        "default_year": "367",
+        "name": "Hilary of Poitiers",
+        "wiki_url": "https://en.wikipedia.org/wiki/Hilary_of_Poitiers"
+    },
+    {
+        "default_year": "425",
+        "name": "Severian of Gabala",
+        "wiki_url": "https://en.wikipedia.org/wiki/Severian_of_Gabala"
+    },
+    {
+        "default_year": "235",
+        "name": "Hippolytus of Rome",
+        "wiki_url": "https://en.wikipedia.org/wiki/Hippolytus_of_Rome"
+    },
+    {
+        "default_year": "411",
+        "name": "Tyrannius Rufinus",
+        "wiki_url": "https://en.wikipedia.org/wiki/Tyrannius_Rufinus"
+    },
+    {
+        "default_year": "272",
+        "name": "Malchion",
+        "wiki_url": "https://en.wikipedia.org/wiki/Malchion"
+    },
+    {
+        "default_year": "1531",
+        "name": "Ulrich Zwingli",
+        "wiki_url": "https://en.wikipedia.org/wiki/Huldrych_Zwingli"
+    },
+    {
+        "default_year": "1274",
+        "name": "Glossa Ordinaria",
+        "wiki_url": "https://en.wikipedia.org/wiki/Glossa_Ordinaria"
+    },
+    {
+        "default_year": "387",
+        "name": "Horsiesios",
+        "wiki_url": "https://coptic-wiki.org/horsiesios-saint"
+    },
+    {
+        "default_year": "435",
+        "name": "John Cassian",
+        "wiki_url": "https://en.wikipedia.org/wiki/John_Cassian"
+    },
+    {
+        "default_year": "235",
+        "name": "Pope Pontian",
+        "wiki_url": "https://en.wikipedia.org/wiki/Pope_Pontian"
+    },
+    {
+        "default_year": "160",
+        "name": "Shepherd of Hermas",
+        "wiki_url": "https://en.wikipedia.org/wiki/The_Shepherd_of_Hermas"
+    },
+    {
+        "default_year": "449",
+        "name": "Hilary of Arles",
+        "wiki_url": "https://en.wikipedia.org/wiki/Hilary_of_Arles"
+    },
+    {
+        "default_year": "420",
+        "name": "Palladius of Galatia",
+        "wiki_url": "https://en.wikipedia.org/wiki/Palladius_of_Galatia"
+    },
+    {
+        "default_year": "200",
+        "name": "Liturgy of Addai and Mari",
+        "wiki_url": "https://en.wikipedia.org/wiki/Liturgy_of_Addai_and_Mari"
+    },
+    {
+        "default_year": "180",
+        "name": "Hegesippus",
+        "wiki_url": "https://en.wikipedia.org/wiki/Hegesippus_(chronicler)"
+    },
+    {
+        "default_year": "309",
+        "name": "Pamphilus of Caesarea",
+        "wiki_url": "https://en.wikipedia.org/wiki/Pamphilus_of_Caesarea"
+    },
+    {
+        "default_year": "392",
+        "name": "Gregory of Elvira",
+        "wiki_url": "https://en.wikipedia.org/wiki/Gregory_of_Elvira"
+    },
+    {
+        "default_year": "465",
+        "name": "Maximus of Turin",
+        "wiki_url": "https://en.wikipedia.org/wiki/Maximus_of_Turin"
+    },
+    {
+        "default_year": "341",
+        "name": "Asterius of Cappadocia",
+        "wiki_url": "https://en.wikipedia.org/wiki/Asterius_of_Cappadocia"
+    },
+    {
+        "default_year": "1171",
+        "name": "Jacob Bar-Salibi",
+        "wiki_url": "https://en.wikipedia.org/wiki/Dionysius_bar_Salibi"
+    },
+    {
+        "default_year": "165",
+        "name": "Justin Martyr",
+        "wiki_url": "https://en.wikipedia.org/wiki/Justin_Martyr"
+    },
+    {
+        "default_year": "311",
+        "name": "Methodius of Olympus",
+        "wiki_url": "https://en.wikipedia.org/wiki/Methodius_of_Olympus"
+    },
+    {
+        "default_year": "651",
+        "name": "Braulio of Zaragoza",
+        "wiki_url": "https://en.wikipedia.org/wiki/Braulio_of_Zaragoza"
+    },
+    {
+        "default_year": "386",
+        "name": "Cyril of Jerusalem",
+        "wiki_url": "https://en.wikipedia.org/wiki/Cyril_of_Jerusalem"
+    },
+    {
+        "default_year": "419",
+        "name": "Council of Carthage of 419",
+        "wiki_url": "https://en.wikipedia.org/wiki/Councils_of_Carthage#Council_of_419"
+    },
+    {
+        "default_year": "439",
+        "name": "Socrates Scholasticus",
+        "wiki_url": "https://en.wikipedia.org/wiki/Socrates_of_Constantinople"
+    },
+    {
+        "default_year": "373",
+        "name": "Ephrem the Syrian",
+        "wiki_url": "https://en.wikipedia.org/wiki/Ephrem_the_Syrian"
+    },
+    {
+        "default_year": "849",
+        "name": "Walafrid Strabo",
+        "wiki_url": "https://en.wikipedia.org/wiki/Walafrid_Strabo"
+    },
+    {
+        "default_year": "360",
+        "name": "Eustathius of Antioch",
+        "wiki_url": "https://en.wikipedia.org/wiki/Eustathius_of_Antioch"
+    },
+    {
+        "default_year": "446",
+        "name": "Proclus of Constantinople",
+        "wiki_url": "https://en.wikipedia.org/wiki/Proclus_of_Constantinople"
+    },
+    {
+        "default_year": "381",
+        "name": "Council of Constantinople of 381",
+        "wiki_url": "https://en.wikipedia.org/wiki/First_Council_of_Constantinople"
+    },
+    {
+        "default_year": "150",
+        "name": "Protoevangelium of James",
+        "wiki_url": "https://en.wikipedia.org/wiki/Gospel_of_James"
+    },
+    {
+        "default_year": "175",
+        "name": "Heracleon",
+        "wiki_url": "https://en.wikipedia.org/wiki/Heracleon"
+    },
+    {
+        "default_year": "1153",
+        "name": "Bernard of Clairvaux",
+        "wiki_url": "https://en.wikipedia.org/wiki/Bernard_of_Clairvaux"
+    },
+    {
+        "default_year": "399",
+        "name": "Evagrius Ponticus",
+        "wiki_url": "https://en.wikipedia.org/wiki/Evagrius_Ponticus"
+    },
+    {
+        "default_year": "552",
+        "name": "Verecundus of Junca",
+        "wiki_url": "https://en.wikipedia.org/wiki/Verecundus_of_Junca"
+    },
+    {
+        "default_year": "1173",
+        "name": "Richard of Saint Victor",
+        "wiki_url": "https://en.wikipedia.org/wiki/Richard_of_Saint_Victor"
+    },
+    {
+        "default_year": "370",
+        "name": "Gaius Marius Victorinus",
+        "wiki_url": "https://en.wikipedia.org/wiki/Gaius_Marius_Victorinus"
+    },
+    {
+        "default_year": "606",
+        "name": "Paterius",
+        "wiki_url": "https://en.wikipedia.org/wiki/Paterius"
+    },
+    {
+        "default_year": "451",
+        "name": "Nilus of Sinai",
+        "wiki_url": "https://en.wikipedia.org/wiki/Nilus_of_Sinai"
+    },
+    {
+        "default_year": "270",
+        "name": "Theognostus Of Alexandria",
+        "wiki_url": "https://en.wikipedia.org/wiki/Theognostus_of_Alexandria"
+    },
+    {
+        "default_year": "108",
+        "name": "Ignatius of Antioch",
+        "wiki_url": "https://en.wikipedia.org/wiki/Ignatius_of_Antioch"
+    },
+    {
+        "default_year": "441",
+        "name": "John I of Antioch",
+        "wiki_url": "https://en.wikipedia.org/wiki/John_I_of_Antioch"
+    },
+    {
+        "default_year": "471",
+        "name": "Gennadius of Constantinople",
+        "wiki_url": "https://en.wikipedia.org/wiki/Gennadius_of_Constantinople"
+    },
+    {
+        "default_year": "99",
+        "name": "Clement of Rome",
+        "wiki_url": "https://en.wikipedia.org/wiki/Pope_Clement_I"
+    },
+    {
+        "default_year": "200",
+        "name": "Caius Presbyter of Rome",
+        "wiki_url": "https://en.wikipedia.org/wiki/Caius_(presbyter)"
+    },
+    {
+        "default_year": "990",
+        "name": "Oecumenius",
+        "wiki_url": "https://en.wikipedia.org/wiki/Oecumenius"
+    },
+    {
+        "default_year": "450",
+        "name": "Hesychius of Jerusalem",
+        "wiki_url": "https://en.wikipedia.org/wiki/Hesychius_of_Jerusalem"
+    },
+    {
+        "default_year": "445",
+        "name": "Vincent of Lérins",
+        "wiki_url": "https://en.wikipedia.org/wiki/Vincent_of_L%C3%A9rins"
+    },
+    {
+        "default_year": "250",
+        "name": "Commodian",
+        "wiki_url": "https://en.wikipedia.org/wiki/Commodian"
+    },
+    {
+        "default_year": "400",
+        "name": "Book of Steps",
+        "wiki_url": "https://en.wikipedia.org/wiki/Book_of_Steps"
+    },
+    {
+        "default_year": "1637",
+        "name": "Cornelius a Lapide",
+        "wiki_url": "https://en.wikipedia.org/wiki/Cornelius_a_Lapide"
+    },
+    {
+        "default_year": "431",
+        "name": "Council of Ephesus",
+        "wiki_url": "https://en.wikipedia.org/wiki/Council_of_Ephesus"
+    },
+    {
+        "default_year": "180",
+        "name": "Melito of Sardis",
+        "wiki_url": "https://en.wikipedia.org//wiki/Melito_of_Sardis"
+    },
+    {
+        "default_year": "544",
+        "name": "Facundus of Hermiane",
+        "wiki_url": "https://en.wikipedia.org/wiki/Facundus_of_Hermiane"
+    },
+    {
+        "default_year": "254",
+        "name": "Faustinus of Lyon",
+        "wiki_url": "https://en.wikipedia.org/wiki/Faustinus_of_Lyon"
+    },
+    {
+        "default_year": "601",
+        "name": "Leander of Seville",
+        "wiki_url": "https://en.wikipedia.org/wiki/Leander_of_Seville"
+    },
+    {
+        "default_year": "382",
+        "name": "Apollinaris of Laodicea",
+        "wiki_url": "https://en.wikipedia.org/wiki/Apollinaris_of_Laodicea"
+    },
+    {
+        "default_year": "1060",
+        "name": "Papias the Lexicographer",
+        "wiki_url": "https://en.wikipedia.org/wiki/Papias_(lexicographer)"
+    },
+    {
+        "default_year": "450",
+        "name": "John the Solitary",
+        "wiki_url": "https://roger-pearse.com/wiki/index.php?title=John_the_Solitary"
+    },
+    {
+        "default_year": "1198",
+        "name": "Nerses of Lambron",
+        "wiki_url": "https://en.wikipedia.org/wiki/Nerses_of_Lambron"
+    },
+    {
+        "default_year": "100",
+        "name": "Josephus",
+        "wiki_url": "https://en.wikipedia.org/wiki/Josephus"
+    },
+    {
+        "default_year": "450",
+        "name": "Peter Chrysologus",
+        "wiki_url": "https://en.wikipedia.org/wiki/Peter_Chrysologus"
+    },
+    {
+        "default_year": "278",
+        "name": "Archelaus of Carrhae",
+        "wiki_url": "https://en.wikipedia.org/wiki/Archelaus_(bishop_of_Carrhae)"
+    },
+    {
+        "default_year": "437",
+        "name": "Possidius",
+        "wiki_url": "https://en.wikipedia.org//wiki/Possidius"
+    },
+    {
+        "default_year": "704",
+        "name": "Adamnán of Iona",
+        "wiki_url": "https://en.wikipedia.org/wiki/Adomn%C3%A1n"
+    },
+    {
+        "default_year": "500",
+        "name": "Victor Vitensis",
+        "wiki_url": "https://en.wikipedia.org/wiki/Victor_Vitensis"
+    },
+    {
+        "default_year": "60",
+        "name": "Matthew",
+        "wiki_url": "https://en.wikipedia.org/wiki/Gospel_of_Matthew"
+    },
+    {
+        "default_year": "638",
+        "name": "Sophronius of Jerusalem",
+        "wiki_url": "https://en.wikipedia.org/wiki/Sophronius_of_Jerusalem"
+    },
+    {
+        "default_year": "56",
+        "name": "2 Corinthians",
+        "wiki_url": "https://en.wikipedia.org/wiki/Second_Epistle_to_the_Corinthians"
+    },
+    {
+        "default_year": "510",
+        "name": "Epiphanius Scholasticus",
+        "wiki_url": "https://en.wikipedia.org/wiki/Epiphanius_Scholasticus"
+    },
+    {
+        "default_year": "1963",
+        "name": "CS Lewis",
+        "wiki_url": "https://en.wikipedia.org/wiki/C._S._Lewis"
+    },
+    {
+        "default_year": "414",
+        "name": "Nicetas of Remesiana",
+        "wiki_url": "https://en.wikipedia.org/wiki/Nicetas_of_Remesiana"
+    },
+    {
+        "default_year": "430",
+        "name": "Marcus Eremita",
+        "wiki_url": "https://en.wikipedia.org/wiki/Marcus_Eremita"
+    },
+    {
+        "default_year": "378",
+        "name": "Titus of Bostra",
+        "wiki_url": "https://en.wikipedia.org/wiki/Titus_of_Bostra"
+    },
+    {
+        "default_year": "253",
+        "name": "Origen of Alexandria",
+        "wiki_url": "https://en.wikipedia.org/wiki/Origen"
+    },
+    {
+        "default_year": "250",
+        "name": "Fabian of Rome",
+        "wiki_url": "https://en.wikipedia.org/wiki/Pope_Fabian"
+    },
+    {
+        "default_year": "544",
+        "name": "Arator",
+        "wiki_url": "https://en.wikipedia.org/wiki/Arator"
+    },
+    {
+        "default_year": "339",
+        "name": "Eusebius of Caesarea",
+        "wiki_url": "https://en.wikipedia.org/wiki/Eusebius"
+    },
+    {
+        "default_year": "600",
+        "name": "Abraham of Nathpar",
+        "wiki_url": "https://syriaca.org/person/321"
+    },
+    {
+        "default_year": "580",
+        "name": "Martin of Braga",
+        "wiki_url": "https://en.wikipedia.org/wiki/Martin_of_Braga"
+    },
+    {
+        "default_year": "390",
+        "name": "Palladius of Antioch",
+        "wiki_url": "https://en.wikipedia.org/wiki/Palladius_of_Antioch"
+    },
+    {
+        "default_year": "560",
+        "name": "Primasius of Hadrumetum",
+        "wiki_url": "https://en.wikipedia.org/wiki/Primasius_of_Hadrumetum"
+    },
+    {
+        "default_year": "345",
+        "name": "Aphrahat the Persian Sage",
+        "wiki_url": "https://en.wikipedia.org/wiki/Aphrahat"
+    },
+    {
+        "default_year": "60",
+        "name": "Mark",
+        "wiki_url": "https://en.wikipedia.org/wiki/Gospel_of_Mark"
+    },
+    {
+        "default_year": "780",
+        "name": "John of Dalyatha",
+        "wiki_url": "https://en.wikipedia.org/wiki/John_of_Dalyatha"
+    },
+    {
+        "default_year": "523",
+        "name": "Philoxenus of Mabbug",
+        "wiki_url": "https://en.wikipedia.org/wiki/Philoxenus_of_Mabbug"
+    },
+    {
+        "default_year": "180",
+        "name": "Tatian the Assyrian",
+        "wiki_url": "https://en.wikipedia.org/wiki/Tatian"
+    },
+    {
+        "default_year": "636",
+        "name": "Isidore of Seville",
+        "wiki_url": "https://en.wikipedia.org/wiki/Isidore_of_Seville"
+    },
+    {
+        "default_year": "200",
+        "name": "Odes of Solomon",
+        "wiki_url": "https://en.wikipedia.org/wiki/Odes_of_Solomon"
+    },
+    {
+        "default_year": "422",
+        "name": "Paulinus of Milan",
+        "wiki_url": "https://en.wikipedia.org/wiki/Paulinus_the_Deacon"
+    },
+    {
+        "default_year": "400",
+        "name": "Adamantius",
+        "wiki_url": "https://en.wikipedia.org/wiki/De_recta_in_Deum_fide"
+    },
+    {
+        "default_year": "468",
+        "name": "Basil of Seleucia",
+        "wiki_url": "https://en.wikipedia.org/wiki/Basil_of_Seleucia"
+    },
+    {
+        "default_year": "420",
+        "name": "Paulus Orosius",
+        "wiki_url": "https://en.wikipedia.org/wiki/Orosius"
+    },
+    {
+        "default_year": "945",
+        "name": "Thietland of Einsiedeln",
+        "wiki_url": "https://sites.google.com/site/aquinasstudybible/home/glossa-ordinaria/thietland-of-einsiedein"
+    },
+    {
+        "default_year": "600",
+        "name": "Olympiodorus of Alexandria",
+        "wiki_url": "https://www.biblicalcyclopedia.com/O/olympiodorus-of-alexandria.html"
+    },
+    {
+        "default_year": "528",
+        "name": "Procopius of Gaza",
+        "wiki_url": "https://en.wikipedia.org/wiki/Procopius_of_Gaza"
+    },
+    {
+        "default_year": "356",
+        "name": "Anthony the Great",
+        "wiki_url": "https://en.wikipedia.org/wiki/Anthony_the_Great"
+    },
+    {
+        "default_year": "521",
+        "name": "Jacob of Serugh",
+        "wiki_url": "https://en.wikipedia.org//wiki/Jacob_of_Serugh"
+    },
+    {
+        "default_year": "69",
+        "name": "Hebrews",
+        "wiki_url": "https://en.wikipedia.org/wiki/Epistle_to_the_Hebrews"
+    },
+    {
+        "default_year": "1546",
+        "name": "Martin Luther",
+        "wiki_url": "https://en.wikipedia.org/wiki/Martin_Luther"
+    },
+    {
+        "default_year": "170",
+        "name": "Muratorian fragment",
+        "wiki_url": "https://en.wikipedia.org/wiki/Muratorian_fragment"
+    },
+    {
+        "default_year": "390",
+        "name": "Nemesius of Emesa",
+        "wiki_url": "https://en.wikipedia.org/wiki/Nemesius"
+    },
+    {
+        "default_year": "360",
+        "name": "Potamius of Lisbon",
+        "wiki_url": "https://en.wikipedia.org/wiki/Potamius"
+    },
+    {
+        "default_year": "90",
+        "name": "John",
+        "wiki_url": "https://en.wikipedia.org/wiki/Gospel_of_John"
+    },
+    {
+        "default_year": "215",
+        "name": "Clement of Alexandria",
+        "wiki_url": "https://en.wikipedia.org/wiki/Clement_of_Alexandria"
+    },
+    {
+        "default_year": "1263",
+        "name": "Hugh of Saint-Cher",
+        "wiki_url": "https://en.wikipedia.org//wiki/Hugh_of_Saint-Cher"
+    },
+    {
+        "default_year": "449",
+        "name": "Eucherius of Lyon",
+        "wiki_url": "https://en.wikipedia.org/wiki/Eucherius_of_Lyon"
+    },
+    {
+        "default_year": "450",
+        "name": "Quodvultdeus",
+        "wiki_url": "https://en.wikipedia.org/wiki/Quodvultdeus"
+    },
+    {
+        "default_year": "446",
+        "name": "Theodotus of Ancyra",
+        "wiki_url": "https://en.wikipedia.org/wiki/Theodotus_of_Ancyra_(bishop)"
+    },
+    {
+        "default_year": "403",
+        "name": "Epiphanius of Salamis",
+        "wiki_url": "https://en.wikipedia.org/wiki/Epiphanius_of_Salamis"
+    },
+    {
+        "default_year": "490",
+        "name": "Faustus of Riez",
+        "wiki_url": "https://en.wikipedia.org/wiki/Faustus_of_Riez"
+    },
+    {
+        "default_year": "465",
+        "name": "Shenoute the Archimandrite",
+        "wiki_url": "https://en.wikipedia.org/wiki/Shenoute"
+    },
+    {
+        "default_year": "455",
+        "name": "Prosper of Aquitaine",
+        "wiki_url": "https://en.wikipedia.org/wiki/Prosper_of_Aquitaine"
+    },
+    {
+        "default_year": "649",
+        "name": "Lateran Council of 649",
+        "wiki_url": "https://en.wikipedia.org/wiki/Lateran_Council_of_649"
+    },
+    {
+        "default_year": "380",
+        "name": "Apostolic Constitutions",
+        "wiki_url": "https://en.wikipedia.org/wiki/Apostolic_Constitutions"
+    },
+    {
+        "default_year": "400",
+        "name": "Hegemonius",
+        "wiki_url": "https://en.wikipedia.org/wiki/Hegemonius"
+    },
+    {
+        "default_year": "800",
+        "name": "John of Karpathos",
+        "wiki_url": "https://en.wikipedia.org/wiki/John_of_Karpathos"
+    },
+    {
+        "default_year": "667",
+        "name": "Ildefonsus of Toledo",
+        "wiki_url": "https://en.wikipedia.org/wiki/Ildefonsus"
+    },
+    {
+        "default_year": "350",
+        "name": "Julius Firmicus Maternus",
+        "wiki_url": "https://en.wikipedia.org/wiki/Julius_Firmicus_Maternus"
+    },
+    {
+        "default_year": "461",
+        "name": "Leo the Great",
+        "wiki_url": "https://en.wikipedia.org/wiki/Pope_Leo_I"
+    },
+    {
+        "default_year": "50",
+        "name": "Galatians",
+        "wiki_url": "https://en.wikipedia.org/wiki/Epistle_to_the_Galatians"
+    },
+    {
+        "default_year": "413",
+        "name": "Aurelius Prudentius Clemens",
+        "wiki_url": "https://en.wikipedia.org/wiki/Prudentius"
+    },
+    {
+        "default_year": "437",
+        "name": "Acacius of Beroea",
+        "wiki_url": "https://en.wikipedia.org/wiki/Acacius_of_Beroea"
+    },
+    {
+        "default_year": "449",
+        "name": "Eznik of Kolb",
+        "wiki_url": "https://en.wikipedia.org/wiki/Eznik_of_Kolb"
+    },
+    {
+        "default_year": "300",
+        "name": "Ammonius of Alexandria",
+        "wiki_url": "https://en.wikipedia.org/wiki/Ammonius_of_Alexandria_(Christian_philosopher)"
+    },
+    {
+        "default_year": "1107",
+        "name": "Theophylact of Ohrid",
+        "wiki_url": "https://en.wikipedia.org/wiki/Theophylact_of_Ohrid"
+    },
+    {
+        "default_year": "533",
+        "name": "Remigius of Rheims",
+        "wiki_url": "https://en.wikipedia.org/wiki/Saint_Remigius"
+    },
+    {
+        "default_year": "230",
+        "name": "Pope Urban I",
+        "wiki_url": "https://en.wikipedia.org/wiki/Pope_Urban_I"
+    },
+    {
+        "default_year": "700",
+        "name": "Isaac of Nineveh",
+        "wiki_url": "https://en.wikipedia.org/wiki/Isaac_of_Nineveh"
+    },
+    {
+        "default_year": "403",
+        "name": "Amphilochius of Iconium",
+        "wiki_url": "https://en.wikipedia.org/wiki/Amphilochius_of_Iconium"
+    },
+    {
+        "default_year": "496",
+        "name": "Gennadius of Massilia",
+        "wiki_url": "https://en.wikipedia.org/wiki/Gennadius_of_Massilia"
+    },
+    {
+        "default_year": "61",
+        "name": "Luke",
+        "wiki_url": "https://en.wikipedia.org/wiki/Gospel_of_Luke"
+    },
+    {
+        "default_year": "708",
+        "name": "Jacob of Edessa",
+        "wiki_url": "https://en.wikipedia.org/wiki/Jacob_of_Edessa"
+    },
+    {
+        "default_year": "360",
+        "name": "Eusebius of Emesa",
+        "wiki_url": "https://en.wikipedia.org/wiki/Eusebius_of_Emesa"
+    },
+    {
+        "default_year": "773",
+        "name": "Cosmas of Maiuma",
+        "wiki_url": "https://en.wikipedia.org/wiki/Cosmas_of_Maiuma"
+    }
+]
