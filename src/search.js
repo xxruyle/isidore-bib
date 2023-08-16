@@ -1,5 +1,7 @@
+
 const SearchManager = () => {
     const bible = require('./EntireBible-DR.json')
+    const gen = require('../dist/commentary/Genesis.json')
 
 
     // Uses regex to parse user input and make an object that has book, chapter, initial verse, and endverse 
@@ -138,6 +140,13 @@ const SearchManager = () => {
         } 
     }
 
+    const getCommentary = () => {
+        const genesis = gen.filter((passage) => passage.file_name === "Genesis 1_31.toml")
+        genesis.forEach((passage) => {
+            console.log(passage.father_name , passage.txt)
+        })
+
+    }
 
     const getCommentaryInput = () => {
 
@@ -204,7 +213,7 @@ const SearchManager = () => {
     }
 
 
-    return {getInput, getCommentaryInput}
+    return {getInput, getCommentaryInput, getCommentary}
 }
 
 

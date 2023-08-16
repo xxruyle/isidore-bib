@@ -8,6 +8,9 @@ function main() {
 
     searchManager.getInput();
     searchManager.getCommentaryInput();
+    searchManager.getCommentary()
+
+
 }
 
 main()

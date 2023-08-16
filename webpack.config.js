@@ -7,8 +7,13 @@ module.exports = {
       filename: 'main.js', 
       path: path.resolve(__dirname, 'dist'),
     },
+
     module: {
         rules: [
+            {
+                test: /\.wasm$/,
+                type: 'javascript/auto',
+            },
             {
                 test: /\.css$/i, 
                 use: ['style-loader', 'css-loader'], 
