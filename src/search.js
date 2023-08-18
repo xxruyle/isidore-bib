@@ -11,7 +11,6 @@ const SearchManager = () => {
 
         const rePassage = bibleRe.exec(passage.trim());
 
-        console.log(rePassage);
 
         if (rePassage != null)
         {
@@ -89,7 +88,10 @@ const SearchManager = () => {
 
 
     const convertTomlFileString = (tomlFileString) => { // converts EX: John 1_1 -> John 1:1 
+        let removedToml = tomlFileString.replace('.toml', ''); 
+        let final = removedToml.replace('_', ':') 
 
+        return final; 
     }
 
     const removeWhitespace = (bookName) => {
@@ -104,7 +106,6 @@ const SearchManager = () => {
         const bibleTextNode = document.querySelector('.verse-container')
         bibleTextNode.innerHTML = ""; 
         const bookNoSpace = removeWhitespace(passageObject.book)
-        console.log(bookNoSpace)
 
         if (passageObject.initialverse === undefined) { // example Job 2 
             let chapterLength = Object.keys(bible[passageObject.book][passageObject.chapter]).length
@@ -166,18 +167,25 @@ const SearchManager = () => {
         const sideContainer = document.querySelector('.side-commentary')
 
 
+
         if (Array.from(sideContainer.classList).includes('hidden')){      
             sideContainer.classList.remove('hidden') 
         }
+
+        if (sideContainer.children.length >= 2) {
+            const newNode = sideContainer.children[0]
+            sideContainer.removeChild(newNode)
+        } 
 
 
 
         const commentaryTitle = document.createElement('div')
         commentaryTitle.classList.add('commentary-title')
 
-        commentaryTitle.textContent = `Commentary for ${passage}`
 
-        console.log(commentaryContainer)
+        let correctPassage = convertTomlFileString(passage)
+        commentaryTitle.textContent = `Commentary from ${correctPassage}`
+
 
         sideContainer.insertBefore(commentaryTitle, commentaryContainer)
 
@@ -220,7 +228,6 @@ const SearchManager = () => {
 
     // Handles the DOM task of adding the correct header and verse to the .passage-container
     const getBiblePassage = (passageObject) => {
-        console.log(passageObject)
         if (passageObject.book !== null) {
             createHeader(passageObject);
             createVerses(passageObject)   
@@ -250,7 +257,6 @@ const SearchManager = () => {
 
             verses.forEach((verse) => {
                 verse.addEventListener('click', (event) => {
-                    console.log(event.target.classList)
                     getCommentary(event.target.classList[0], event.target.classList[1])
                 })
             })
