@@ -1,7 +1,6 @@
 
 const SearchManager = () => {
     const bible = require('./EntireBible-DR.json')
-    const gen = require('../dist/commentary/Genesis.json')
 
 
     // Uses regex to parse user input and make an object that has book, chapter, initial verse, and endverse 
@@ -69,11 +68,32 @@ const SearchManager = () => {
     }
 
     const createXMLid = (passageObject, initialverse) => {
-        let bookName = passageObject.book.replace(/\s/g, '') // squish together book names if there is a space EX: 1 Peter -> 1Peter
+        let bookName = passageObject.book.replace(/\s+/g, '') // squish together book names if there is a space EX: 1 Peter -> 1Peter
 
         let xmlid = `Bible:${bookName}.${passageObject.chapter}.${initialverse}`
 
         return xmlid
+    }
+
+    const createTomlName = (passageObject, initialverse) => {
+        const noBookSpace = removeWhitespace(passageObject.book); 
+        let tomlName = `${noBookSpace}_${passageObject.chapter}_${initialverse}.toml`;
+        return tomlName;
+    }
+
+    const createTomlFileString = (tomlname) => {
+        const numberSpace = tomlname.replace(/(\d)(?=[a-zA-Z])/g, '$1 '); // replaces 1John 1_1 to be 1 John 1_1 
+
+        return numberSpace.replace(/_/, ' ') // replaces first underscore with a space 
+    }
+
+
+    const convertTomlFileString = (tomlFileString) => { // converts EX: John 1_1 -> John 1:1 
+
+    }
+
+    const removeWhitespace = (bookName) => {
+        return bookName.replace(/\s+/g, '');
     }
 
 
@@ -83,8 +103,8 @@ const SearchManager = () => {
 
         const bibleTextNode = document.querySelector('.verse-container')
         bibleTextNode.innerHTML = ""; 
-
-
+        const bookNoSpace = removeWhitespace(passageObject.book)
+        console.log(bookNoSpace)
 
         if (passageObject.initialverse === undefined) { // example Job 2 
             let chapterLength = Object.keys(bible[passageObject.book][passageObject.chapter]).length
@@ -92,8 +112,11 @@ const SearchManager = () => {
                 const pNode = document.createElement('p');
                 pNode.id = 'verse'
 
-                let xmlID = createXMLid(passageObject, i)
-                pNode.classList.add(xmlID)
+                pNode.classList.add(bookNoSpace)
+
+                let toml = createTomlName(passageObject, i)
+                pNode.classList.add(toml)
+
 
 
                 pNode.innerHTML = `<sup class="verse-superscript">${i}</sup> ${bible[passageObject.book][passageObject.chapter][i]}`
@@ -108,9 +131,11 @@ const SearchManager = () => {
 
                     const pNode = document.createElement('p')
                     pNode.id = 'verse'
-                    let xmlID = createXMLid(passageObject, i)
 
-                    pNode.classList.add(xmlID)
+                    pNode.classList.add(bookNoSpace);
+
+                    let toml = createTomlName(passageObject, i)
+                    pNode.classList.add(toml)
 
                     pNode.innerHTML = `<sup class="verse-superscript">${i}</sup>  ${bible[passageObject.book][passageObject.chapter][i]}`
 
@@ -121,14 +146,76 @@ const SearchManager = () => {
         } else { // example: Job 2:2
             const pNode = document.createElement('p');
             pNode.id = 'verse'
-            let xmlID = createXMLid(passageObject, passageObject.initialverse)
-            pNode.classList.add(xmlID)
+            pNode.classList.add(bookNoSpace)
+
+            let toml = createTomlName(passageObject, passageObject.initialverse)
+            pNode.classList.add(toml)
 
 
             pNode.innerHTML = `<sup class="verse-superscript">${passageObject.initialverse}</sup> ${bible[passageObject.book][passageObject.chapter][passageObject.initialverse]}` 
             bibleTextNode.appendChild(pNode);
 
         }
+    }
+
+    const initCommentary = (passage) => {
+        const commentaryContainer = document.querySelector('.commentary-container') 
+
+        commentaryContainer.innerHTML = " " 
+
+        const sideContainer = document.querySelector('.side-commentary')
+
+
+        if (Array.from(sideContainer.classList).includes('hidden')){      
+            sideContainer.classList.remove('hidden') 
+        }
+
+
+
+        const commentaryTitle = document.createElement('div')
+        commentaryTitle.classList.add('commentary-title')
+
+        commentaryTitle.textContent = `Commentary for ${passage}`
+
+        console.log(commentaryContainer)
+
+        sideContainer.insertBefore(commentaryTitle, commentaryContainer)
+
+
+
+    }
+
+    const createCommentaryCards = (father_name, quote) => {
+
+        const commentaryContainer = document.querySelector('.commentary-container') 
+
+
+
+
+
+        const commentaryCard = document.createElement('div')
+        commentaryCard.classList.add('commentary-card')
+
+        const commentaryFather = document.createElement('div')
+        commentaryFather.classList.add('commentary-father')
+        commentaryFather.textContent = father_name 
+
+
+        const commentaryText = document.createElement('div')
+        commentaryText.classList.add('commentary-text')
+        commentaryText.classList.add('overflow-auto')
+        commentaryText.textContent = quote 
+
+        const expandIcon = document.createElement('span')
+        expandIcon.classList.add('expand-icon')
+        expandIcon.classList.add('material-symbols-outlined')
+        expandIcon.textContent = "expand_more" 
+
+        commentaryCard.appendChild(commentaryFather)
+        commentaryCard.appendChild(commentaryText)
+        commentaryCard.appendChild(expandIcon)
+
+        commentaryContainer.appendChild(commentaryCard)
     }
 
     // Handles the DOM task of adding the correct header and verse to the .passage-container
@@ -140,10 +227,18 @@ const SearchManager = () => {
         } 
     }
 
-    const getCommentary = () => {
-        const genesis = gen.filter((passage) => passage.file_name === "Genesis 1_31.toml")
-        genesis.forEach((passage) => {
-            console.log(passage.father_name , passage.txt)
+    const getCommentary = (bookName, tomlString) => {
+        const comments = require(`../dist/commentary/${bookName}.json`)
+        const whiteSpaceToml = createTomlFileString(tomlString)
+
+        const passages = comments.filter((comment) => comment.file_name === whiteSpaceToml)
+
+        initCommentary(whiteSpaceToml)
+
+
+        passages.forEach((quote) => {
+            // console.log(quote.father_name, quote.txt)
+            createCommentaryCards(quote.father_name, quote.txt)
         })
 
     }
@@ -155,41 +250,12 @@ const SearchManager = () => {
 
             verses.forEach((verse) => {
                 verse.addEventListener('click', (event) => {
-                    console.log(event.target.classList);
-                    showCommentary(event.target.classList[0])
+                    console.log(event.target.classList)
+                    getCommentary(event.target.classList[0], event.target.classList[1])
                 })
             })
         })
 
-
-    }
-
-    const parseXML = (xmlText) =>  {
-        const parser = new DOMParser();
-        const xmlDoc = parser.parseFromString(xmlText, 'text/xml');
-    
-        return xmlDoc
-    }
-
-    const fetchCommentary = async () => {
-        const commentaryResponse = await fetch('https://ccel.org/ccel/s/schaff/npnf210.xml',  {mode: 'cors'});
-
-        const commentaryData = await commentaryResponse.text();
-
-        const xmlText = parseXML(commentaryData);
-
-        return xmlText;
-    }
-
-    const showCommentary = async (osisReference) => {
-        const res = await fetchCommentary()
-
-        let refs = res.querySelectorAll(`[osisRef="${osisReference}"]`)
-        console.log(refs)
-        refs.forEach((ref) => {
-            // let parent = ref.parentNode.parentNode.parentNode.parentNode.parentNode 
-            console.log(ref.parentNode.parentNode.parentNode.textContent)
-        })
 
     }
 

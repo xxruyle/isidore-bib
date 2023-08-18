@@ -73,6 +73,7 @@ input[type="text"] {
     color: #fff;
     padding: 0 0.5rem;
     border-radius: .3rem;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     transition: all .3s cubic-bezier(0, 0, 0.43, 1.49);;
     transition-property: width, border-radius;
 
@@ -97,13 +98,24 @@ input[type="text"] {
     display: flex; 
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: top;
 
 
-    margin: 5em 13em;
+    margin: 3em 3em;
     margin-bottom: 20px;
 
+    flex: 1;
+
+
 }
+
+.passage-container:after {
+    content: "";
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    align-self: stretch;
+
+}
+
 
 
 
@@ -123,4 +135,107 @@ input[type="text"] {
 
 #verse:hover {
     border-bottom: 1px solid #fff;
+}
+
+.main {
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.side-commentary {
+    display: flex; 
+    flex-direction: column;
+    position: sticky;
+    top: 10%; 
+    bottom: 10%; 
+
+    height: auto; 
+    max-height: 200vh; 
+    min-width: 50vh;
+
+
+
+}
+
+.commentary-container {
+
+
+    display: flex; 
+
+    flex-direction: column;
+    gap: 50px; 
+
+    margin: 3em 60px 3em 60px;
+
+    overflow: auto;
+
+
+
+}
+
+.commentary-container {
+
+    content: "";
+    border-left: 1px solid rgba(255, 255, 255, 0.1);
+    padding-left: 1.5em;
+    align-self: stretch;
+
+}
+
+.commentary-title {
+    display: flex; 
+    justify-content: center;
+
+    font-size: 1.4em;
+
+}
+
+.commentary-card {
+    display: flex; 
+    flex-direction: column;
+
+    gap: 10px; 
+
+
+    width: 400px; 
+    height: 180px;
+
+    background-color: #44403C;
+
+    border-radius: .3rem;
+    box-shadow: 0px 2px 4px rgba(255, 255, 255, 0.1);
+
+
+    padding: 30px 30px 15px 30px; 
+}
+
+
+
+.commentary-father {
+    font-weight: 600;
+}
+
+.commentary-text {
+    height: auto; 
+    max-height: 100px;
+    overflow: auto;
+
+}
+
+.expand-icon {
+    cursor: pointer; 
+
+    width: 10px; 
+    height: 10px; 
+
+    margin: auto; 
+}
+
+.overflow-auto {
+    overflow: auto; 
+}
+
+.hidden {
+    display: none;
 }
