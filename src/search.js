@@ -228,7 +228,7 @@ const SearchManager = () => {
     }
 
     const getCommentary = (bookName, tomlString) => {
-        const comments = require(`../dist/commentary/${bookName}.json`)
+        const comments = require(`./commentary/${bookName}.json`)
         const whiteSpaceToml = createTomlFileString(tomlString)
 
         const passages = comments.filter((comment) => comment.file_name === whiteSpaceToml)
