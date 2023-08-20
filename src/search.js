@@ -18,6 +18,8 @@ const SearchManager = () => {
 
             bookName = bookName.replace(/\b\w/g, char => char.toUpperCase());
 
+            bookName = createBookAbbreviation(bookName);
+
             let endVerse; 
 
             rePassage[4] !== undefined ? endVerse = rePassage[4] : endVerse = undefined; 
@@ -66,13 +68,7 @@ const SearchManager = () => {
         passageHeaderNode.textContent = headerText
     }
 
-    const createXMLid = (passageObject, initialverse) => {
-        let bookName = passageObject.book.replace(/\s+/g, '') // squish together book names if there is a space EX: 1 Peter -> 1Peter
 
-        let xmlid = `Bible:${bookName}.${passageObject.chapter}.${initialverse}`
-
-        return xmlid
-    }
 
     const createTomlName = (passageObject, initialverse) => {
         const noBookSpace = removeWhitespace(passageObject.book); 
@@ -100,12 +96,34 @@ const SearchManager = () => {
 
 
 
+    const createBookAbbreviation = (book) => {
+        const abbrevs = require('./abbreviations.json')
+        for (let abbrev in abbrevs) {
+            if (abbrevs[abbrev].includes(book)) {
+                return abbrev
+            }
+        }
+
+        return book
+
+    }
+
+
+
     // Handles the DOM related task of adding the correct verses to the .verse-container 
     const createVerses = (passageObject) => {
+        resetCommentary()
+
+
 
         const bibleTextNode = document.querySelector('.verse-container')
         bibleTextNode.innerHTML = ""; 
         const bookNoSpace = removeWhitespace(passageObject.book)
+
+
+
+        createHeader(passageObject)
+
 
         if (passageObject.initialverse === undefined) { // example Job 2 
             let chapterLength = Object.keys(bible[passageObject.book][passageObject.chapter]).length
@@ -113,7 +131,7 @@ const SearchManager = () => {
                 const pNode = document.createElement('p');
                 pNode.id = 'verse'
 
-                pNode.classList.add(bookNoSpace)
+                pNode.classList.add(passageObject.book)
 
                 let toml = createTomlName(passageObject, i)
                 pNode.classList.add(toml)
@@ -133,7 +151,7 @@ const SearchManager = () => {
                     const pNode = document.createElement('p')
                     pNode.id = 'verse'
 
-                    pNode.classList.add(bookNoSpace);
+                    pNode.classList.add(passageObject.book);
 
                     let toml = createTomlName(passageObject, i)
                     pNode.classList.add(toml)
@@ -188,9 +206,6 @@ const SearchManager = () => {
 
 
         sideContainer.insertBefore(commentaryTitle, commentaryContainer)
-
-
-
     }
 
     const createCommentaryCards = (father_name, quote) => {
@@ -226,10 +241,24 @@ const SearchManager = () => {
         commentaryContainer.appendChild(commentaryCard)
     }
 
+
+    const resetCommentary = () => {
+        const sideContainer = document.querySelector('.side-commentary')
+        const commentaryContainer = document.querySelector('.commentary-container') 
+        commentaryContainer.innerHTML = "" 
+
+        if (sideContainer.children.length >= 2) {
+            const newNode = sideContainer.children[0]
+            sideContainer.removeChild(newNode)
+        } 
+
+        sideContainer.classList.add('hidden')
+    }
+
+
     // Handles the DOM task of adding the correct header and verse to the .passage-container
     const getBiblePassage = (passageObject) => {
         if (passageObject.book !== null) {
-            createHeader(passageObject);
             createVerses(passageObject)   
         } 
     }
@@ -268,7 +297,6 @@ const SearchManager = () => {
     const getExpandInput = () => {
         window.addEventListener('click', (event) => {
             if (Array.from(event.target.classList).includes('expand-icon')) {
-                console.log(event.target.parentNode)
                 event.target.parentNode.style.cssText = 'height: 70%;'
                 event.target.textContent = 'expand_less' 
                 event.target.classList.remove('expand-icon')

@@ -133,7 +133,7 @@ input[type="text"] {
 
 .passage-header {
     font-size: 2em;
-    width: 250px;
+    width: auto;
     display: flex; 
     justify-content: center;
 }
@@ -192,7 +192,6 @@ input[type="text"] {
     flex-direction: column;
     position: sticky;
     top: 10%; 
-    bottom: 10%; 
 
     margin-top: 3.2em;
 
@@ -214,12 +213,14 @@ input[type="text"] {
     flex-direction: column;
     align-items: center;
     width: auto;
+
     gap: 50px; 
 
 
     margin: 3em 60px 3em 60px;
 
     overflow: auto;
+    overflow-x: hidden;
 
     transition: 0.2s;
 
@@ -236,7 +237,7 @@ input[type="text"] {
 
     content: "";
     border-left: 1px solid rgba(255, 255, 255, 0.1);
-    padding-left: 1.5em;
+    padding-left: 2em;
     align-self: stretch;
 
 }
@@ -261,7 +262,7 @@ input[type="text"] {
     gap: 10px; 
 
 
-    width: 400px; 
+    width: 450px; 
     height: 200px;
 
     background-color: #44403C;
@@ -271,6 +272,11 @@ input[type="text"] {
 
 
     padding: 30px 30px 15px 30px; 
+
+
+
+    transition: height 0.5s ease-in;
+
 }
 
 
@@ -280,8 +286,10 @@ input[type="text"] {
 }
 
 .commentary-text {
-    max-height: 400px;
-    overflow: auto;
+    padding-right: 10px;
+    line-height: 1.5;
+
+
 
 }
 
@@ -293,7 +301,13 @@ input[type="text"] {
     height: 10px; 
 
     margin: auto; 
+
+    transition:transform 0.3s ease-out; 
+
 }
+
+
+
 
 .overflow-auto {
     overflow: auto; 
