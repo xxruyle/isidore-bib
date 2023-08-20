@@ -215,8 +215,8 @@ const SearchManager = () => {
         commentaryText.textContent = quote 
 
         const expandIcon = document.createElement('span')
-        expandIcon.classList.add('expand-icon')
         expandIcon.classList.add('material-symbols-outlined')
+        expandIcon.classList.add('expand-icon')
         expandIcon.textContent = "expand_more" 
 
         commentaryCard.appendChild(commentaryFather)
@@ -265,6 +265,25 @@ const SearchManager = () => {
 
     }
 
+    const getExpandInput = () => {
+        window.addEventListener('click', (event) => {
+            if (Array.from(event.target.classList).includes('expand-icon')) {
+                console.log(event.target.parentNode)
+                event.target.parentNode.style.cssText = 'height: 70%;'
+                event.target.textContent = 'expand_less' 
+                event.target.classList.remove('expand-icon')
+                event.target.classList.add('collapse-icon')
+            } else if (Array.from(event.target.classList).includes('collapse-icon')) {
+                event.target.parentNode.style.cssText = 'height: 200px;'
+                event.target.textContent = 'expand_more' 
+                event.target.classList.remove('collapse-icon')
+                event.target.classList.add('expand-icon')
+            }
+
+
+        })
+    }
+
     // obtains user input and calls getBiblePassage() after user input is parsed by parseInput()
     const getInput = () => {
         const searchText = document.querySelector('.search-text')
@@ -282,10 +301,12 @@ const SearchManager = () => {
                 getBiblePassage(parsedInput)
             }
         })
+
+
     }
 
 
-    return {getInput, getCommentaryInput, getCommentary}
+    return {getInput, getCommentaryInput, getCommentary, getExpandInput}
 }
 
 

@@ -262,7 +262,7 @@ input[type="text"] {
 
 
     width: 400px; 
-    height: 180px;
+    height: 200px;
 
     background-color: #44403C;
 
@@ -280,14 +280,14 @@ input[type="text"] {
 }
 
 .commentary-text {
-    height: auto; 
-    max-height: 100px;
+    max-height: 400px;
     overflow: auto;
 
 }
 
-.expand-icon {
+.expand-icon, .collapse-icon {
     cursor: pointer; 
+    user-select: none;
 
     width: 10px; 
     height: 10px; 
@@ -309,6 +309,8 @@ input[type="text"] {
     width: 100%; 
     color: white; 
 }
+
+
 
 .hidden {
     display: none;
