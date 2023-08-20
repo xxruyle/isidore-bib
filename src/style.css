@@ -38,7 +38,6 @@ html, body {
   .commentary-container::-webkit-scrollbar-thumb {
     background: #0c0a09;
     border-radius: 10px;
-    border: 1.5px solid #44403C;
   }
 
   .commentary-text::-webkit-scrollbar-thumb {
@@ -258,12 +257,15 @@ input[type="text"] {
 .commentary-card {
     display: flex; 
     flex-direction: column;
+    flex: 0 1; 
 
     gap: 10px; 
 
 
     width: 450px; 
     height: 200px;
+
+    min-width: 0;
 
     background-color: #44403C;
 
